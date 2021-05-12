@@ -1,8 +1,7 @@
-## Loading
+# Loading
 
 A flutter widget of loading progress Indicator. Easy to use, easy to extend
 
-<img src="./art/loading.gif" width=250 height=480/>
 
 ## Installation
 
@@ -27,11 +26,8 @@ flutter packages get
       body: Container(
         color: Colors.lightBlue,
         child: Center(
-          child: Loading(indicator: BallPulseIndicator(), size: 100.0, color: Colors.pink),
+          child: Loading(indicator: BallPulseIndicator(), size: 100.0,color: Colors.pink),
         ),
       ),
 ```
 
-## Thanks
-
-[AVLoadingIndicatorView](https://github.com/81813780/AVLoadingIndicatorView)
